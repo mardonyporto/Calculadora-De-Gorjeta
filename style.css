@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%; /* aqui eu estou dizendo que agora 1 rem tem 10px */
+
+}
+
+/* O código abaixo serve para retirar os botões de aumentar e diminuir o valor de um input do tipo number "spin-buttons" */
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+body {
+
+    height: 100vh;
+
+    background-color: #1F8A4F;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculadora-container {
+
+    background-color: #0F3F25;
+
+    width: 360px;
+    height: 600px;
+
+    border-radius: 16px;
+
+    padding-left: 16px;
+}
+
+form {
+
+    margin-top: 56px;
+
+}
+
+.labels {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #ffffff;
+
+}
+
+.inputStyle {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #1E1E1E;
+
+    width: 328px;
+    height: 48px;
+
+    border-radius: 8px;
+    border: none;
+
+    margin: 8px 0 24px 0;
+
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+
+}
+
+.inputText {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #1E1E1E;
+
+}
+
+.btn {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    background-color: #067302;
+    color: #ffffff;
+
+    width: 328px;
+    height: 56px;
+
+    border-radius: 8px;
+    border: none;
+
+    cursor: pointer;
+
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+}
+
+.btn:hover {
+
+    background-color: #62BF04;
+    color: #ffffff;
+
+}
+
+.outputStyle {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #1E1E1E;
+
+    width: 328px;
+    height: 48px;
+
+    background-color: #ffffff;
+
+    border-radius: 8px;
+    border: none;
+
+    margin: 8px 0 24px 0;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
